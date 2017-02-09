@@ -6,20 +6,20 @@
 
 .container {
   width: 500px;
-  height: 330px;
+  height: 240px;
   border: solid 1px #00C6D6;
   overflow:hidden;
 }
 
 p {
-  height: auto;
+  height: 80px;
   margin: 15px 15px;
 }
 
 h1 {
   color: white;
   background: #00C6D6;
-  height: 10px;
+  height: 45px;
   margin-top: 0px;
   font-size: 20px;
   font-weight: lighter;
@@ -28,14 +28,16 @@ h1 {
 }
 
 // height or max-height
-// overflow
+// overflow asjsa
 
 
 .section {
-  height: 0px;
+  height: 46px;
   overflow: hidden;
 }
 
 .open {
- max-height: 100px;
+ height: 147px;
+ transition: .75s;
+
 }

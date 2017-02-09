@@ -17,7 +17,8 @@
 
   function openSection (event) {
 
-    var target = $(event.target);
+    var target = $(event.target).parent(".section");
+    $(".section").removeClass("open");
     target.addClass("open");
     console.log("i'm working" );
 }
@@ -52,7 +53,9 @@ $(".section").click(openSection);
   //  $(".section1").addClass("open");
   //  $(".section2").addClass("close");
   //  $(".section3").addClass("close");
-  //target.classList.add("guessed");
+  $(".section1").removeClass("open");
+  //  $(".section2").addClass("close");
+  //  $(".section3").addClass("close");
 // }
 //
 
@@ -80,7 +83,7 @@ $(".section").click(openSection);
 //   return $( this ).prev().attr( "class" );
 // });
 // function open () {
-//
+
 // }
 //
 // $(".section1").addclass(open)

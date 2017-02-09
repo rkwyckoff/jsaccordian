@@ -5,8 +5,9 @@
 
 .container {
   width: 500px;
-  height: 330px;
-  border: solid 1px #00C6D6; }
+  height: 240px;
+  border: solid 1px #00C6D6;
+  overflow: hidden; }
 
 p {
   height: 80px;
@@ -22,31 +23,10 @@ h1 {
   font: arial;
   padding-top: 10px; }
 
-.board {
-  width: 80%; }
-
-.board div {
-  height: 130px;
-  width: 150px;
-  display: inline-block;
-  border: 3px double black;
-  transition: background 0.5s ease-in-out; }
-
-.section1 {
-  height: 100px;
-  overflow: hidden; }
-
-.section2 {
-  height: 100px;
-  overflow: hidden; }
-
-.section3 {
-  height: 100px;
+.section {
+  height: 46px;
   overflow: hidden; }
 
 .open {
-  height: 100px; }
-
-.close {
-  overflow: hidden;
-  height: 45px; }
+  height: 147px;
+  transition: .75s; }
