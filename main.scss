@@ -8,22 +8,18 @@
   width: 500px;
   height: 330px;
   border: solid 1px #00C6D6;
+  overflow:hidden;
 }
 
 p {
-  height: 80px;
+  height: auto;
   margin: 15px 15px;
 }
-
-
-
-
-
 
 h1 {
   color: white;
   background: #00C6D6;
-  height: 45px;
+  height: 10px;
   margin-top: 0px;
   font-size: 20px;
   font-weight: lighter;
@@ -34,34 +30,12 @@ h1 {
 // height or max-height
 // overflow
 
-  .board {
-    width: 80%;
-  }
-    .board div {
-      height: 130px;
-      width: 150px;
-      display: inline-block;
-      border: 3px double black;
-      transition: background 0.5s ease-in-out; }
 
-.section1 {
-  height: 100px;
-  overflow: hidden;
-}
-.section2 {
-  height: 100px;
-  overflow: hidden;
-}
-.section3 {
-  height: 100px;
+.section {
+  height: 0px;
   overflow: hidden;
 }
 
 .open {
-height: 100px;
-}
-
-.close {
-overflow: hidden;
-height: 45px;
+ max-height: 100px;
 }

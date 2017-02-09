@@ -9,22 +9,41 @@
 //4)section 1 doesnotslide,section 2 and 3 slide up and down
 //5)when
 
-// var alphabetBox = document.querySelector(".alphabet");
-// target.addEventListener("click", processClick);
 
-function sectionClick (event) {
-
-  //  var target = event.target;
+// 1. make it so a section opens on click
+// 2. make it so the other sections close too
 
 
-  console.log("i'm working" );
+
+  function openSection (event) {
+
+    var target = $(event.target);
+    target.addClass("open");
+    console.log("i'm working" );
 }
+$(".section").click(openSection);
+ //function closeSection (event) {
+//(event.target.closeSection)
+//   var target = $(event.target);
+//   target.removeClass("open");
+//if (!target) {
+//   console.log("i'm working" );
+// }
+// $(".section").click(closeSection);
+//
+// function changeScreen (event) {
+//   (event).target.closeSection; event.target
 
-  $(".section1").click(sectionClick);
-  $(".section2").click(sectionClick);
-  $(".section3").click(sectionClick);
+//function changeScreen (event) {
+  //(event).target.openSection;
 
 
+
+
+
+
+//$(".section2").addClass("close");
+//$(".section3").addClass("close");
 
   // $(".section1").removeClass("open").addClass("close");
   // $(".section2").removeClass("open").addClass("close");
@@ -35,20 +54,7 @@ function sectionClick (event) {
   //  $(".section3").addClass("close");
   //target.classList.add("guessed");
 // }
-// if (event) {
-//   $(".section2 h1").click(sectionClick)
-//   $(".section1").addClass(close);
-//   $(".section2").addClass(open);
-//   $(".section3").addClass(close);
-// }
-// if (event) {
-//   $(".section3 h1").click(sectionClick)
-//   $(".section1").addClass(close);
-//   $(".section2").addClass(close);
-//   $(".section3").addClass(open);
-// }
-// }
-
+//
 
 
 
