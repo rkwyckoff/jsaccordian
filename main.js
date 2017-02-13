@@ -23,6 +23,7 @@
     console.log("i'm working" );
 }
 $(".section").click(openSection);
+$(".section1").removeClass("open");
  //function closeSection (event) {
 //(event.target.closeSection)
 //   var target = $(event.target);
@@ -53,7 +54,7 @@ $(".section").click(openSection);
   //  $(".section1").addClass("open");
   //  $(".section2").addClass("close");
   //  $(".section3").addClass("close");
-  $(".section1").removeClass("open");
+
   //  $(".section2").addClass("close");
   //  $(".section3").addClass("close");
 // }
